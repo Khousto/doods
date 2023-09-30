@@ -11,6 +11,7 @@ export default function Header() {
         className={styles.image}
         sizes="100vw"
       />
+      <div className={styles.logo}>KLAYM DEM</div>
     </header>
   );
 }
