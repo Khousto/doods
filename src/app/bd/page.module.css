@@ -1,0 +1,14 @@
+.cards {
+  margin-inline: var(--spacing-xl);
+  max-width: 1024px;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--spacing-xl);
+  margin-bottom: 5rem;
+}
+
+@media (min-width: 720px) {
+  .card {
+    grid-template-columns: repeat (3, 1fr);
+  }
+}
