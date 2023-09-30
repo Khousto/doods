@@ -1,9 +1,10 @@
 import type { Metadata } from "next";
+import PageTitle from "~/components/page-title/page-title";
 
 export const metadata: Metadata = {
   title: "BD",
 };
 
 export default function Comics() {
-  return <h1>| Bande-Dessinée |</h1>;
+  return <PageTitle>Bande-Dessinée</PageTitle>;
 }

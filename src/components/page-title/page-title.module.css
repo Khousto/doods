@@ -1,0 +1,20 @@
+.root {
+  color: var(--primary-color);
+  border-left: 5px solid var(--primary-color);
+  border-right: 5px solid var(--primary-color);
+  line-height: 1;
+  padding-inline: var(--spacing-sm);
+}
+
+/* .root::before,
+.root::after {
+  content: "|";
+}
+
+.root::before {
+  margin-right: var(--spacing-xs);
+}
+
+.root::after {
+  margin-left: var(--spacing-xs);
+} */

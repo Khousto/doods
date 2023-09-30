@@ -1,9 +1,10 @@
 import type { Metadata } from "next";
+import PageTitle from "~/components/page-title/page-title";
 
 export const metadata: Metadata = {
   title: "Illustrations",
 };
 
 export default function Illustrations() {
-  return <h1>| Illustrations |</h1>;
+  return <PageTitle>Illustrations</PageTitle>;
 }

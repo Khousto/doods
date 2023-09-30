@@ -74,5 +74,6 @@ h6 {
   --fw-semibold: 600;
   --fw-bold: 700;
 
+  --primary-color: rgb(4, 92, 77);
   /* faire font size et les couleurs */
 }

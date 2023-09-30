@@ -26,5 +26,5 @@
 }
 
 .item a:hover {
-  color: darkmagenta;
+  color: var(--primary-color);
 }

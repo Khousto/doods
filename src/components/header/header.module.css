@@ -15,12 +15,18 @@
 /* changer le logo */
 
 .logo {
-  font-size: 4rem;
+  font-size: 2rem;
   font-weight: var(--fw-bold);
   line-height: 1;
   padding-inline: var(--spacing-xl);
-  border: 8px solid black;
-  border-radius: 1rem;
+  border: 0.125em solid black;
+  border-radius: 0.25em;
+}
+
+@media (min-width: 620px) {
+  .logo {
+    font-size: 4rem;
+  }
 }
 
 .logo::after,
