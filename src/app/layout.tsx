@@ -1,6 +1,7 @@
 import "./globals.css";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import NavBar from "~/components/navbar";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -16,7 +17,10 @@ interface Props {
 export default function RootLayout(props: Props) {
   return (
     <html lang="fr">
-      <body className={inter.className}>{props.children}</body>
+      <body className={inter.className}>
+        <NavBar />
+        {props.children}
+      </body>
     </html>
   );
 }

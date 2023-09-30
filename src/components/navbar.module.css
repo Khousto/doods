@@ -1,0 +1,29 @@
+.nav {
+  padding: 1rem;
+}
+
+.list {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+
+  list-style: none;
+}
+
+.item {
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.item[data-active="true"] a {
+  color: #666;
+}
+
+.item a {
+  color: black;
+  text-decoration: none;
+}
+
+.item a:hover {
+  color: darkmagenta;
+}
