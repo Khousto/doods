@@ -1,17 +1,17 @@
 .nav {
-  padding: 1rem;
+  padding: var(--spacing-md);
 }
 
 .list {
   display: flex;
   justify-content: center;
-  gap: 2rem;
+  gap: var(--spacing-xl);
 
   list-style: none;
 }
 
 .item {
-  font-weight: 500;
+  font-weight: var(--fw-medium);
   text-transform: uppercase;
 }
 
